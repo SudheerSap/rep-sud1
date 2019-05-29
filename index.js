@@ -55,7 +55,7 @@ app.post('/weatherincity', (req, res) =>
 						
 						var reply = [{
 							type: 'text',
-							content: "I'm sorry! Something went wrong with the call. Try asking a different question."
+							content: "I'm sorry! Something went wrong . Try asking a different question."
 						}];
 
 						res.status(200).json({
